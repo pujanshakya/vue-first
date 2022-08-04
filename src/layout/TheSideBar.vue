@@ -53,8 +53,10 @@
         >
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.html">Buttons</a>
-            <a class="collapse-item" href="cards.html">Cards</a>
+            <router-link to="/buttons" class="collapse-item"
+              >Buttons</router-link
+            >
+            <router-link to="/cards" class="collapse-item">Cards</router-link>
           </div>
         </div>
       </li>
